@@ -154,15 +154,11 @@
 <div class="form-row">
   <?php echo label_for('comments', 'Comentarios:', 'class="required" ') ?>
   <div class="content content_long" style="overflow: hidden;">
-    <?php $sep =''; foreach ($langs as $lang): ?>
-      <?php $mm->setCulture($lang);  echo $sep ?>  
       <?php $value = object_textarea_tag($mm, 'getComments', array (
         'size' => '80x3',
-        'control_name' => 'comments_' . $lang,
+        'control_name' => 'comments',
         'onchange' => "$('remember_save_mm').show()",
-      )); echo $value ? $value.'<span class="lang">'.$lang.'</span>' : '&nbsp;' ?>
-      <?php $sep='<br /><br />'?>
-    <?php endforeach; ?>
+      )); echo $value ? $value : '&nbsp;' ?>
   </div>
 </div>
 
