@@ -358,6 +358,7 @@ class virtualserialActions extends sfActions
     $mm->setCopyright($this->getRequestParameter('copyright', 0));
     $mm->setPrecinctId($this->getRequestParameter('precinct_id', 0));
     $mm->setGenreId($this->getRequestParameter('genre_id', 0));
+    $mm->setComments($this->getRequestParameter('comments', ' '));
 
     $langs = sfConfig::get('app_lang_array', array('es'));
     foreach($langs as $lang){
@@ -366,7 +367,6 @@ class virtualserialActions extends sfActions
       $mm->setSubtitle($this->getRequestParameter('subtitle_' . $lang, 0));
       $mm->setKeyword($this->getRequestParameter('keyword_' . $lang, ' '));
       $mm->setDescription($this->getRequestParameter('description_' . $lang, ' '));
-      $mm->setComments($this->getRequestParameter('comments_' . $lang, ' '));
       $mm->setLine2($this->getRequestParameter('line2_' . $lang, ' '));
       //$mm->setSubserialTitle($this->getRequestParameter('subserial_title_' . $lang, ' '));
     }
@@ -581,9 +581,7 @@ class virtualserialActions extends sfActions
       $mm->delete();
     }
 
-    $text = '<script type="text/javascript"> click_fila_edit("mm", null, -1)</script>';
-    $this->getResponse()->setContent($this->getResponse()->getContent().$text);
-    return $this->renderComponent('virtualserial', 'list');
+    return $this->renderPartial('listeditpreview');
   }
 
 

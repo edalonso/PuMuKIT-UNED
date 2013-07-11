@@ -30,7 +30,7 @@ class virtualserialComponents extends sfComponents
 
     if ($this->getUser()->hasAttribute('id', 'tv_admin/virtualserial')){
       $this->mm = MmPeer::retrieveByPk($this->getUser()->getAttribute('id', null, 'tv_admin/virtualserial'));
-      $this->file = $this->mm->getFirstFile();
+      $this->file = $this->mm->getFirstPublicFile();
     }else{
       //TODOUNED borrar???
       $c = new Criteria;
@@ -40,7 +40,7 @@ class virtualserialComponents extends sfComponents
       $c->add(CategoryMmPeer::CATEGORY_ID, $cat_id);
       $c->addAscendingOrderByColumn(MmPeer::RANK);
       $this->mm = MmPeer::doSelectOne($c);
-      $this->file = $this->mm->getFirstFile();
+      $this->file = $this->mm->getFirstPublicFile();
     }
   }
 
