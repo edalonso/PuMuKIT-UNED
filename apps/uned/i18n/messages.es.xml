@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<xliff version="1.0"> 
+  <file orginal="global" source-language="gl" datatype="plaintext" date="2011-06-15T14:05:00Z"> 
+    <body> 
+    
+
+
+<trans-unit id="1">
+<source>Teléfonos</source>
+<target>Teléfonos</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>e</source>
+<target>y</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>Formulario de contacto</source>
+<target>Formulario de contacto</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>Contacto</source>
+<target>Contacto</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>INICIO</source>
+<target>INICIO</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>Busca</source>
+<target>Búsqueda</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>Mediateca</source>
+<target>Mediateca</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>Directo</source>
+<target>Directo</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>Area de Prensa</source>
+<target>Área de Prensa</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>Series</source>
+<target>Series</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>Vídeos</source>
+<target>Vídeos</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>Horas</source>
+<target>Horas</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>Próximos directos</source>
+<target>Próximos directos</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>Non existen retransmisións programadas</source>
+<target>No existen retransmisiones programadas</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>Conxunto de identidade do servizo</source>
+<target>Conjunto de identidad del servicio</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>Páxina de inicio do sitio web do Campus do Mar</source>
+<target>Página de inicio del sitio web del Campus del Mar</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>Versión en galego</source>
+<target>Versión en gallego</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>Galego</source>
+<target>Gallego</target>
+</trans-unit>
+
+<trans-unit id="19">
+<source>Versión en castelán</source>
+<target>Versión en castellano</target>
+</trans-unit>
+
+<trans-unit id="20">
+<source>Castelán</source>
+<target>Castellano</target>
+</trans-unit>
+
+<trans-unit id="21">
+<source>Versión en inglés</source>
+<target>Versión en inglés</target>
+</trans-unit>
+
+<trans-unit id="22">
+<source>Inglés</source>
+<target>Inglés</target>
+</trans-unit>
+
+<trans-unit id="23">
+<source>Data de celebración</source>
+<target>Fecha de celebración</target>
+</trans-unit>
+
+<trans-unit id="24">
+<source>Vídeo</source>
+<target>Vídeo</target>
+</trans-unit>
+
+<trans-unit id="25">
+<source>Necesita instalar o Plugin de Flash</source>
+<target>Necesita instalar el Plugin de Flash</target>
+</trans-unit>
+
+<trans-unit id="26">
+<source>Visto:</source>
+<target>Visto:</target>
+</trans-unit>
+
+<trans-unit id="27">
+<source> vez</source>
+<target> vez</target>
+</trans-unit>
+
+<trans-unit id="28">
+<source> veces</source>
+<target> veces</target>
+</trans-unit>
+
+<trans-unit id="29">
+<source>No existen vídeos de estas características</source>
+<target>No existen vídeos de estas características</target>
+</trans-unit>
+
+<trans-unit id="30">
+<source>Vídeos da mesma serie:</source>
+<target>Vídeos de la misma serie:</target>
+</trans-unit>
+
+<trans-unit id="31">
+<source>Tamén che interesan</source>
+<target>También te interesan</target>
+</trans-unit>
+
+<trans-unit id="32">
+<source>O vídeo que vai a reproducir contén esceas sensibles</source>
+<target>El vídeo que va a reproducir contiene escenas que pueden herir su sensibilidad</target>
+</trans-unit>
+
+<trans-unit id="33">
+<source>Asegúrese que quere velo antes de reproducilo</source>
+<target>Asegúrese de que quiere verlo antes de reproducirlo</target>
+</trans-unit>
+
+<trans-unit id="34">
+<source>Compartir en Facebook</source>
+<target>Compartir en Facebook</target>
+</trans-unit>
+
+<trans-unit id="35">
+<source>Compartir en Twitter</source>
+<target>Compartir en Twitter</target>
+</trans-unit>
+
+<trans-unit id="36">
+<source>Compartir en Delicious</source>
+<target>Compartir en Delicious</target>
+</trans-unit>
+
+<trans-unit id="37">
+<source>Compartir en Google Buzz</source>
+<target>Compartir en Google Buzz</target>
+</trans-unit>
+
+<trans-unit id="38">
+<source>Búsqueda</source>
+<target>Búsqueda</target>
+</trans-unit>
+
+<trans-unit id="39">
+<source>Cargando</source>
+<target>Cargando</target>
+</trans-unit>
+
+<trans-unit id="40">
+<source>Non se atopou a páxina solicitada</source>
+<target>No se encontró la página solicitada</target>
+</trans-unit>
+
+<trans-unit id="41">
+<source>Presentación final Campus do Mar</source>
+<target>Presentación final del Campus del Mar</target>
+</trans-unit>
+
+<trans-unit id="42">
+<source>Conferencias</source>
+<target>Conferencias</target>
+</trans-unit>
+
+<trans-unit id="43">
+<source>EMISIÓN EN DIRECTO</source>
+<target>EMISIÓN EN DIRECTO</target>
+</trans-unit>
+
+<trans-unit id="44">
+<source>Apoio Agrupación I+D</source>
+<target>Apoyo Agrupación I+D</target>
+</trans-unit>
+
+<trans-unit id="45">
+<source>Apoio Social</source>
+<target>Apoyo Social</target>
+</trans-unit>
+
+<trans-unit id="46">
+<source>Promocionáis</source>
+<target>Promocionales</target>
+</trans-unit>
+
+<trans-unit id="47">
+<source>Apoio Promotores</source>
+<target>Apoyo Promotores</target>
+</trans-unit>
+
+<trans-unit id="48">
+<source>Últimos engadidos</source>
+<target>Últimos añadidos</target>
+</trans-unit>
+
+<trans-unit id="49">
+<source>Máis vistos</source>
+<target>Más vistos</target>
+</trans-unit>
+
+<trans-unit id="50">
+<source>Próxima transmisión en directo</source>
+<target>Próxima transmisión en directo</target>
+</trans-unit>
+
+<trans-unit id="51">
+<source>A emisión é en diferido, excepto durante a transmisión anunciada</source>
+<target>La emisión es en diferido, excepto durante la transmisión anunciada</target>
+</trans-unit>
+
+<trans-unit id="52">
+<source>Chat da CMAR TV</source>
+<target>Chat de la CMAR TV</target>
+</trans-unit>
+
+<trans-unit id="53">
+<source>Directo CMAR</source>
+<target>Directo CMAR</target>
+</trans-unit>
+
+<trans-unit id="54">
+<source>Superado o número máximo de conexións simultáneas.</source>
+<target>Superado el número máximo de conexiones simultáneas.</target>
+</trans-unit>
+
+<trans-unit id="55">
+<source>Inténteo de novo máis tarde</source>
+<target>Inténtelo de nuevo más tarde</target>
+</trans-unit>
+
+<trans-unit id="56">
+<source>Canle Directo CMAR TV</source>
+<target>Canal Directo CMAR TV</target>
+</trans-unit>
+
+<trans-unit id="57">
+<source>VIDEOS DESTACADOS</source>
+<target>VIDEOS DESTACADOS</target>
+</trans-unit>
+
+<trans-unit id="58">
+<source>Categorías</source>
+<target>Categorías</target>
+</trans-unit>
+
+<trans-unit id="59">
+<source>Todos</source>
+<target>Todos</target>
+</trans-unit>
+
+<trans-unit id="60">
+<source>Grandes Momentos</source>
+<target>Grandes momentos</target>
+</trans-unit>
+
+<trans-unit id="61">
+<source>Máis Ciencia</source>
+<target>Más Ciencia</target>
+</trans-unit>
+
+<trans-unit id="62">
+<source>Culturais</source>
+<target>Culturales</target>
+</trans-unit>
+
+<trans-unit id="63">
+<source>Institucionais</source>
+<target>Institucionales</target>
+</trans-unit>
+
+<trans-unit id="64">
+<source>Busca</source>
+<target>Búsqueda</target>
+</trans-unit>
+
+<trans-unit id="65">
+<source>Instrucciones de uso do Chat:</source>
+<target>Instrucciones de uso del chat:</target>
+</trans-unit>
+
+<trans-unit id="66">
+<source>Introduce o teu nome, escribe a mensaxe e preme Enter.</source>
+<target>Introduce tu nombre, escribe el mensaje y pulsa Enter.</target>
+</trans-unit>
+
+<trans-unit id="67">
+<source>EVENTO</source>
+<target>EVENTO</target>
+</trans-unit>
+
+<trans-unit id="68">
+<source>LUGAR</source>
+<target>LUGAR</target>
+</trans-unit>
+
+<trans-unit id="69">
+<source>DÍA</source>
+<target>DÍA</target>
+</trans-unit>
+
+<trans-unit id="70">
+<source>HORA</source>
+<target>HORA</target>
+</trans-unit>
+
+<trans-unit id="71">
+<source>Nome</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="72">
+<source>Mensaxe</source>
+<target>Mensaje</target>
+</trans-unit>
+
+<trans-unit id="73">
+<source>Idioma do video</source>
+<target>Idioma del vídeo</target>
+</trans-unit>
+
+<trans-unit id="74">
+<source>Clases Grabadas</source>
+<target>Clases Grabadas</target>
+</trans-unit>
+
+<trans-unit id="75">
+<source>Outros</source>
+<target>Otros</target>
+</trans-unit>
+
+<trans-unit id="76">
+<source>Grandes Conferencias</source>
+<target>Grandes Conferencias</target>
+</trans-unit>
+
+<trans-unit id="77">
+<source>Clases</source>
+<target>Clases</target>
+</trans-unit>
+
+<trans-unit id="78">
+<source>Apoio ao Proxecto</source>
+<target>Apoyo al Proyecto</target>
+</trans-unit>
+
+<trans-unit id="79">
+<source>Promocionales e corporativos</source>
+<target>Promocionales y corporativos</target>
+</trans-unit>
+
+<trans-unit id="80">
+<source>Buscar</source>
+<target>Buscar</target>
+</trans-unit>
+
+</body>
+  </file> 
+</xliff>

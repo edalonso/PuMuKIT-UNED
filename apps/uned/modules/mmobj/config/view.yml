@@ -1,0 +1,7 @@
+all:
+  stylesheets:    [uned/serial.css]
+
+  javascripts:    [prototype, scriptaculous]
+
+  has_layout:     on
+  layout:         onelayout

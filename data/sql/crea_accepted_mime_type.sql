@@ -1,0 +1,1 @@
+ALTER TABLE `perfil` ADD `accepted_mime_type` VARCHAR(100);

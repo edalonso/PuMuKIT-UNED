@@ -1,0 +1,20 @@
+<config width="490" height="385" autostart="false" overstretch="overstretch" locale="http://www.canaluned.com/locale/es_ES">
+<item>
+<file>http://www.canaluned.com/resources/flv/8/6/1364971625168.flv</file>
+<image>http://www.canaluned.com/resources/jpg/3/8/1365062981483.jpg</image>
+<url/>
+<id>11641</id>
+</item>
+<includePath>http://www.canaluned.com/swf/data/ctv_commons.xml</includePath>
+<plugins>
+<plugin depth="1" className="plugins.ImageLoader" name="image" show="onStop"/>
+<plugin depth="2" className="modules.ModuleLoader" name="playIcon" show="onPlay, onStop, onPause" params="source::http://www.canaluned.com/swf/v2/plugins/playicon.swf"/>
+<plugin depth="3" className="modules.ModuleLoader" name="logo" show="onPlay, onPause, onStop" params="source::http://www.canaluned.com/swf/v2/plugins/logoPlugin.swf,url::http://www.canaluned.com"/>
+<plugin depth="4" className="modules.ModuleLoader" name="authoringPlugin" show="onPause, onStop, onPlay" params="source::http://www.canaluned.com/swf/v2/plugins/AuthoringPlugin.swf,host::http://www.canaluned.com"/>
+<plugin depth="5" className="modules.ModuleLoader" name="controlbar" show="onPause, onStop, onPlay" params="source::http://www.canaluned.com/swf/v2/plugins/controlbar.swf,subtitles::true"/>
+<plugin depth="6" className="modules.ModuleLoader" name="subtitles" show="onPlay" params="source::http://www.canaluned.com/swf/v2/plugins/subtitles.swf,file::http://www.canaluned.com/resources/srt/0/0/1365062981300.srt"/>
+<plugin depth="7" className="modules.ModuleLoader" name="statistics" show="onPause, onStop, onPlay" params="source::http://www.canaluned.com/swf/v2/plugins/statistics.swf,percentValue::10,urlService::http://www.canaluned.com/stats/services"/>
+<plugin depth="8" className="modules.ModuleLoader" name="SU" show="onPause, onStop, onPlay" params="source::http://www.canaluned.com/swf/v2/plugins/SUPlugin.swf,url::http://www.canaluned.com/su/services"/>
+<plugin depth="9" className="modules.ModuleLoader" name="livesessions" show="onPause, onStop, onPlay" params="source::http://www.canaluned.com/swf/v2/plugins/LiveSessions.swf,xml::http://www.canaluned.com/xml/contents/es/sessions/1/4/6/1/sessions_11641.xml,link::http://www.canaluned.com/#frontaleID=F_RC&amp;sectionID=S_TELEAC&amp;tellive="/>
+</plugins>
+</config>

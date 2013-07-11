@@ -1,0 +1,35 @@
+# default rules
+timeline:
+  url:   /dashboard/serial_timeline.xml
+  param: { module: dashboard, action: serial }
+
+timeline_mm:
+  url:   /dashboard/mm_timeline.xml
+  param: { module: dashboard, action: mm }
+
+tv_timeline:
+  url:   /timeframes/tv_timeline.xml
+  param: { module: timeframes, action: tvTimeline }
+
+radio_timeline:
+  url:   /timeframes/radio_timeline.xml
+  param: { module: timeframes, action: radioTimeline }
+
+tv_radio_timeline:
+  url:   /timeframes/tv_radio_timeline.xml
+  param: { module: timeframes, action: tvRadioTimeline }
+
+homepage:
+  url:   /
+  param: { module: index, action: index }
+
+default_symfony:
+  url:   /symfony/:action/*
+  param: { module: default }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

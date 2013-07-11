@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<?php include_http_metas() ?>
+<?php include_metas() ?>
+
+<?php include_title() ?>
+
+<link rel="shortcut icon" href="/favicon.png" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/uned/serial.css" />
+
+</head>
+<body>
+   <?php include_partial('global/cab')?>
+   <div id="tvuned" class="container_15" style="">
+     <div class="unedtv_cab">
+        <?php include_partial('global/cab_pan')?>
+     </div>
+     <div class="">
+        <div class="grid_3">
+          <?php include_partial('global/bar')?>
+        </div>
+        <div class="grid_12">
+          <?php echo $sf_data->getRaw('sf_content') ?>
+        </div>
+        <?php include_partial('global/pie')?>
+     </div> 
+</body>
+</html>

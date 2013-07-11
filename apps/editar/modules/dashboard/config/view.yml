@@ -1,0 +1,14 @@
+all:
+  stylesheets:    [admin/dashboard]
+  javascripts:    [/js/jquery-1.8.3.min.js, /js/timeline_2.3.1/timeline_js/timeline-api.js]
+
+serialSuccess:
+  has_layout: off
+
+  http_metas:
+    content-type: text/xml
+
+infopdfSuccess:
+  stylesheets:    [admin/coffee-with-milk]
+  javascripts:    []
+  layout:     layoutorig

@@ -1,0 +1,1 @@
+<?php include_partial('consultas', array('event' => $event, 'mail' => $reply, 'name' => $name, 'content' => $content)) ?>

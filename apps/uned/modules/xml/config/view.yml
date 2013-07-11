@@ -1,0 +1,8 @@
+all:
+  has_layout: off
+  stylesheets:  [-*]
+  javascripts: [-*]
+
+
+  http_metas:
+    content-type: application/rss+xml; charset=utf-8

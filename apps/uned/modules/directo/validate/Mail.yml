@@ -1,0 +1,32 @@
+fillin:
+  enabled: true
+  param:
+    name: add_comment
+    skip_fields:   [content]
+
+fields:
+  name:
+    required:
+      msg: You must provide a name to leave a comment
+    sfStringValidator:
+      min: 3
+      min_error: Nombre demasiado corto
+      max: 100
+      max_error: Nombre demasiado largo
+  mail:
+    required:
+      msg: Debe proveer un email para poder enviar una consulta
+    sfEmailValidator:
+      email_error: Dirección de correo no válida
+  content:
+    sfStringValidator:
+      min: 10
+      min_error: Consulta demasiado corta
+
+  captcha:
+    required: yes
+      msg: Es necesario introducir el número de la imagen
+    captchaValidator:
+      class:         captchaValidator
+      param:
+      error: Número erroneo

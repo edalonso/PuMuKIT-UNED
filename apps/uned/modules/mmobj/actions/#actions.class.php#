@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * mmobj actions.
+ *
+ * @package    pumukitvigo
+ * @subpackage mmobj
+ * @author     Ruben Glez <rubenrua at uvigo.es>
+ * @version    SVN: $Id: actions.class.php 2692 2006-11-15 21:03:55Z fabien $
+ */
+class mmobjActions extends sfActions
+{
+    /**
+     * Executes index action
+     *
+     */
+    public function executeIndex()
+    {
+        if($this->hasRequestParameter('file_id')){
+            $this->file = FilePeer::retrieveByPK($this->getRequestParameter('file_id'));
+            $this->forward404Unless($this->file);
+
+            $this->m = $this->file->getMm();
+        }else{
+            $this->m = MmPeer::retrieveByPK($this->getRequestParameter('id'));
+            $this->forward404Unless($this->m);
+
+            $this->file = $this->m->getFirstFile();
+        }
+        //TODOUNED Ver si esta publicado
+        $this->forward404Unless($this->file);
+        //$this->forward404Unless($this->m->hasPubChannelId(1));
+
+        $this->getUser()->panNivelCuatro($this->m);
+
+
+        $this->roles = RolePeer::doSelectWithI18n(new Criteria(), $this->getUser()->getCulture());
+        $this->file->incNumView();
+	$request = $this->getRequest();
+	ViewsLog::logThisView($request);
+	LogFilePeer::act( $this->file->getId(), $_SERVER['REMOTE_ADDR'], $_SERVER['HTTP_USER_AGENT'], $this->getRequest()->getUri() );
+
+
+        $this->getResponse()->addMeta('keywords', $this->m->getKeyword());
+    }
+
+
+    /**
+     * --  DOWNLOAD -- /uned.php/mmobj/download
+     *
+     * Parametros por URL: Identificador del archivo multimedia
+     *
+     */
+    public function executeDownload(){
+      set_time_limit(0);
+      
+      $file = FilePeer::retrieveByPk($this->getRequestParameter('id'));
+      $this->forward404Unless($file);
+      
+      $ticket = TicketPeer::new_web($file);
+      return $this->redirect($ticket->getUrl());
+    }
+   
+    
+    /**
+     * --  DOWNLOAD -- /uned.php/mmobj/iframe
+     *
+     * Parametros por URL: Identificador del archivo multimedia
+     *
+     */
+    public function executeIframe()
+    {
+      return $this->renderText("TODOUNED");
+    }
+}

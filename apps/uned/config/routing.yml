@@ -1,0 +1,87 @@
+# RULES
+culture:
+  url:   /culture/:culture.html
+  param: { module: utils, action: culture }
+
+arca_opml:
+  url:   /arca.xml
+  param: { module: xml, action: arcaOPML }
+
+arca_by_year:
+  url:   /:year/arca.xml
+  param: { module: xml, action: arcaByYear }
+  requirements: {id: \d+ }
+
+homepage:
+  url:   /
+  param: { module: index, action: index }
+
+educa:
+  url: /educa.html
+  param: { module: educa, action:  index }
+
+educa_cat:
+  url: /educa/:id.html
+  param: { module: educa, action:  allMmsByDate }
+
+video_flashplaylist:
+  url:   /:sf_culture/video/playlist/:id.xml
+  param: { module: video, action: getPlaylist }
+  requirements: { sf_culture: (?:es|gl), id: \d+ }
+
+file_ext:
+  url:   /file/:id
+  param: { module: file, action: index }
+
+file:
+  url:   /file/:id
+  param: { module: file, action: index }
+  requirements: {id: \d+ }
+
+#SEARCH RULES
+search:
+  url:   /search.html
+  param: { module: search, action: index }
+
+search_i18n:
+  url:   /:sf_culture/search.html
+  param: { module: search, action: index }
+
+teleacto:
+  url:   /teleacto/:id.html
+  param: {module: directo, action: index }
+
+# URL MAPPER RULES
+url_mapper_html:
+  url:   /:path1/:path2/:path3-:ident.html
+  param: { module: urlmapper, action: html }
+
+url_mapper_rss_mediateca:
+  url:   /rss/F_RC-S_MEDIAT-FI_VIDEO.xml
+  param: { module: urlmapper, action: rssmediateca }
+
+url_mapper_rss_teleactos:
+  url:   /rss/F_RC-S_TELEAC-FI_VIDEO.xml
+  param: { module: urlmapper, action: rssteleactos }
+
+url_mapper_rss_audio:
+  url:   /rss/F_RC-S_RADUNE-FI_AUDIO.xml
+  param: { module: urlmapper, action: rssaudio }
+
+url_mapper_rss_television:
+  url:   /rss/F_RC-S_TELUNE-FI_VIDEO.xml
+  param: { module: urlmapper, action: rsstelevision }
+
+# TEMPLATES
+templates:
+  url:   /:temp.html
+  param: { module: templates, action: index }
+
+# DEFAULT RULES
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+

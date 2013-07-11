@@ -1,0 +1,7 @@
+default:
+  has_layout:     on
+  layout:         indexlayout
+
+all:
+  stylesheets:    [/sf/calendar/calendar-system.css, /sf/calendar/skins/aqua/theme.css, admin/accordion.css, admin/tree]
+  javascripts:    [jwplayer, /sf/calendar/calendar.js, /sf/calendar/lang/calendar-es.js, /sf/calendar/calendar-setup.js, jquery-1.9.0.js, jquery-ui-1.10.0.custom.min.js, jquery.jstree.js, AC_OETags, swfobject, jquery.easyui.min.js]

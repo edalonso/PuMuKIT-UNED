@@ -1,0 +1,211 @@
+.serial_body {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+div.serial_body div.inter_mm {
+    margin-top: 16px;
+}
+div.serial_body div.serial_place {
+    background-color: #DFDFDF;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 11px;
+    padding-right: 5px;
+    text-align: right;
+}
+div.serial_body div.serial_place_w {
+    background-color: #FFAB54;
+}
+div.serial_body div.date {
+    font-size: 150%;
+    text-align: right;
+}
+div.serial_body div.serial_date {
+    background: url("/images/tv/usc/bg_azul_sinesquinas.gif") repeat-x scroll 0 0 #000066;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 11px;
+    text-align: center;
+}
+div.serial_body div.serial_date_w {
+    background-color: #F56600;
+}
+div.serial_body div.serial_mm {
+    background-color: #F0F0F0;
+}
+div.serial_body div.serial_mm:hover {
+    color: #78787A;
+    background-color: #77787A;
+}
+div.serial_body div.serial_mm_w {
+    background-color: #FFEAD6;
+}
+div.serial_body div.serial_mm_pics {
+    margin-left: 5px;
+    vertical-align: top;
+    width: 21%;
+}
+div.serial_body div.serial_mm_info {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+}
+div.serial_mm_info .title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #015442;
+}
+.img_perfis_serial:hover .serial_mm_info .title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFF;
+}
+div.serial_mm_info .subtitle {
+    color: #015442;
+}
+.img_perfis_serial:hover .serial_mm_info .subtitle {
+    color: #FFF;
+}
+div.serial_mm_info .objects {
+    /*margin-left: 20px;*/
+}
+div.serial_mm_info .file {
+    min-height: 18px;
+    padding-left: 25px;
+}
+div.serial_mm_info .file a {
+    color: #015442;
+}
+.img_perfis_serial:hover .file a {
+    color: #FFF;
+}
+div.serial_mm_info .material {
+    min-height: 18px;
+    padding-left: 25px;
+}
+div.serial_mm_info .link {
+    min-height: 18px;
+    padding-left: 25px;
+}
+div.serial_mm_info .persons {
+    color: #666666;
+    font-size: 85%;
+}
+div.serial_mm_info .person {
+    color: #015442;
+    font-weight: bold;
+}
+.img_perfis_serial:hover div.serial_mm_info .person{
+    color: #FFF;
+    font-weight: bold;
+}
+.img_perfis_serial:hover .serial_mm_info .person {
+    font-weight: bold;
+}
+div.serial_mm_info .language, div.serial_mm_info .numView {
+    font-weight: bold;
+}
+div.serial_mm_info #material {
+    min-height: 18px;
+    padding-left: 25px;
+}
+.img_perfis_serial div.serial_mm_info #material a {
+    color: #015442;
+}
+.img_perfis_serial:hover div.serial_mm_info #material a {
+    color: #FFF;
+}
+table#directo_announces {
+    border: 0 none;
+    border-spacing: 2px;
+    margin: 0 auto;
+    width: 69%;
+}
+table#directo_announces thead tr {
+    background-color: #CC0000;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+table#directo_announces tbody tr.par {
+    background-color: #F0F0F0;
+}
+table#directo_announces tbody tr.impar {
+    background-color: #DFDFDF;
+}
+table#directo_announces tfoot tr {
+    background-color: #0052A4;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+.audio {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/altavoz2.gif") no-repeat scroll left top transparent;
+}
+.book {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/book2.gif") no-repeat scroll left top transparent;
+}
+.doc {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/doc.gif") no-repeat scroll left top transparent;
+}
+.video {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/video.png") no-repeat scroll left top transparent;
+}
+.matterhorn {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/movie2.gif") no-repeat scroll left top transparent;
+}
+.link {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/url.gif") no-repeat scroll left top transparent;
+}
+.mp3 {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/mp3.gif") no-repeat scroll left top transparent;
+}
+.pdf {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/pdf.gif") no-repeat scroll left top transparent;
+}
+.htm {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/url.gif") no-repeat scroll left top transparent;
+}
+.pps {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/pps.gif") no-repeat scroll left top transparent;
+}
+.ppt {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/ppt.gif") no-repeat scroll left top transparent;
+}
+.url {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/url.gif") no-repeat scroll left top transparent;
+}
+.txt {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/txt.gif") no-repeat scroll left top transparent;
+}
+.swf {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/swf.gif") no-repeat scroll left top transparent;
+}
+.xlm {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/swf.xlm") no-repeat scroll left top transparent;
+}
+.zip {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/zip.gif") no-repeat scroll left top transparent;
+}
+.download {
+    -moz-background-inline-policy: continuous;
+    background: url("/images/tv/iconos/url.gif") no-repeat scroll left top transparent;
+}

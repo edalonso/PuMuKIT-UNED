@@ -1,0 +1,18 @@
+Usado proyecto https://github.com/splitbrain/Watcher.
+
+Intalar: yum install python python-pyinotify python-argparse.noarch
+
+Copiar:
+
+ * watcher.ini -> /etc/watcher.ini
+ * watcher.py -> /etc/init.d/watcher.py
+
+Archivos usados:
+
+ * /var/log/watcher.log 
+ * /var/run/watcher.pid 
+
+Añadirlo como servicio:
+
+$ chkconfig --add watcher.py
+

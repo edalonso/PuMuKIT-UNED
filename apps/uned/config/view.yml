@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        canal.uned.es
+    robots:       index, follow
+    description:  Portal Web-TV de la Universidad Nacional de Enseñanza a Distancia
+    keywords:     webtv, Tv, Universidad Nacional de Enseñanza a Distancia, canaluned, uned, unedtv, pumukit
+    language:     es
+
+  stylesheets:    [uned/estilos.css, uned/960.css, uned/unedtv.css]
+
+  javascripts:    [prototype, scriptaculous, /swf/jwplayer6/jwplayer.js]
+
+  has_layout:     on
+  layout:         layout

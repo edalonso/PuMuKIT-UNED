@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        New Editar WEB
+    robots:       index, follow
+    description:  Edit data base of Pumukit
+    keywords:     pumukit, DDBB
+    language:     es
+
+  stylesheets:    [main, admin/cab, admin/menu, admin/modalbox, admin/admin, admin/js-tree.css, admin/tree.css]
+
+  javascripts:    [jwplayer, /sf/calendar/calendar.js, /sf/calendar/lang/calendar-es.js, /sf/calendar/calendar-setup.js, jquery-1.9.0.js, jquery-ui-1.10.0.custom.min.js, AC_OETags, swfobject]
+
+  has_layout:     on
+  layout:         layout

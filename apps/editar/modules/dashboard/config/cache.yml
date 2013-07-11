@@ -1,0 +1,9 @@
+serial:
+  enabled:  on
+  with_layout: true
+  lifetime:  86400
+
+mm:
+  enabled:  on
+  with_layout: true
+  lifetime:  86400

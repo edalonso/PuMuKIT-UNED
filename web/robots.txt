@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /editar.php
+Disallow: /editar_dev.php
+Disallow: /mmobj/download?id=*
+Disallow: /file/*
